@@ -37,6 +37,10 @@ func (self PathReader) Read(path string) (io.Reader, error) {
     return bytes.NewReader(wa.Bytes()), nil
 }
 
+func (self *PathReader) AddOption(options ...option) {
+    applyOptions(self, options)
+}
+
 // ReadTo reads a path to a provided io.WriterAt instance.
 func (self PathReader) ReadTo(path string, wa io.WriterAt) error {
     return readPath(self, path, wa)
@@ -46,9 +50,7 @@ func (self PathReader) ReadTo(path string, wa io.WriterAt) error {
 func NewPathReader(options ...option) *PathReader {
     pathReader := &PathReader{}
 
-    for _, opt := range options {
-        opt(pathReader)
-    }
+    applyOptions(pathReader, options)
 
     return pathReader
 }

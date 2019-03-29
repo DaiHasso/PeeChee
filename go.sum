@@ -1,7 +1,7 @@
-github.com/DaiHasso/beagle v0.0.2 h1:jXRalHhqekqlpH/eoG9AnDZJUIqJpHEeCeftM1jb+1M=
-github.com/DaiHasso/beagle v0.0.2/go.mod h1:RykGAFl0BRYws/JhPr1ntxaKB0tyq1AH1BzXVn/ChAA=
 github.com/aws/aws-sdk-go v1.16.32 h1:/grHp+bt3OAVWkdCQv2YtXkWuu58SuTlH1U8tp25n1c=
 github.com/aws/aws-sdk-go v1.16.32/go.mod h1:KmX6BPdI08NWTb3/sm4ZGu5ShLoqVDhKgpiN924inxo=
+github.com/daihasso/beagle v0.0.3 h1:lYIvkQ8r3006HOMoo7XiWWiCKu3RyDBqbnCdH4lrE1g=
+github.com/daihasso/beagle v0.0.3/go.mod h1:YriSpzRtRAG7WbDzDz2yQ7olg5mvrKkCY+RJ6R1M4ic=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/djherbis/buffer v1.0.0 h1:6rqC+Sqzr+bnbjlUzLf3+9Tz8CT8YVbdqGRGMZM0H3o=
